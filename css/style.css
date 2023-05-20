@@ -1,0 +1,132 @@
+:root{
+    /*colores*/
+    --background: #003C5B;
+    --text: #FFFFFF;
+    --naranja: #DD833A;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+}
+html{
+    font-size: 62.5%;
+    
+}
+header{
+    position: fixed;
+    width: 100%;
+    min-width: 320px;
+    max-height: 300px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+header .tdc-logo{
+    position: absolute;
+    width: 167px;
+    height: 55px;
+    margin-top: 13px;
+    top: 0;
+    left: calc(50% - 84px);
+    background-color: transparent;
+}
+header video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+/*section2*/
+.main-container{
+    width: 90%;
+    height: auto;
+    min-width: 320px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.container--title{
+    width: 100%;
+    min-width: 288px;
+    height: auto;
+    margin: 27px auto 0;
+    
+}
+.container--title h2{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.4rem;
+    color: var(--text);text-align: left;
+}
+
+.container--slider{
+    display: flex;
+    gap: 15px;
+    height: auto;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.container--slider::-webkit-scrollbar{
+    display: none;
+}
+.container--card{
+    position: relative;
+    scroll-snap-align: center;
+    width: 30%;
+    height: auto;
+    min-width: 114px;
+    max-width: 350px;
+    min-height: 150px;
+    margin: 11px auto 0;
+    background-color: var(--text);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(17, 17, 16, 0.16);
+}
+.description{
+    width: 90%;
+    margin: 0 auto;
+}
+.description p{
+    margin-top: 35px;
+    color: var(--text);
+    font-size: 1rem;
+    line-height: 1.7rem;
+    text-align: justify;
+}
+
+
+/*footer*/
+footer{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.container-footer{
+    width: 90%;
+    margin: 35px auto 20px;    
+}
+.container-footer ul{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    list-style: none;
+}
+.container-footer li{
+    color: var(--naranja);
+    font-weight: 400;
+}
+
+.container-footer a{
+    color: var(--text);
+    text-decoration: none;
+}
+.decoration{
+    width: 100%;
+    padding-top: 2px;
+    margin-bottom: 25px;
+    background-image: linear-gradient(to right, white 33%,transparent 33%, transparent 66%, white 66%);
+}

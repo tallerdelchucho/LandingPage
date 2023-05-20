@@ -1,0 +1,13 @@
+.container--card{
+    min-height: 250px;
+}
+
+.container-footer ul{
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+
+.description p{
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
