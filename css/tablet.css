@@ -1,6 +1,4 @@
-.container--card{
-    min-height: 250px;
-}
+
 
 .container-footer ul{
     font-size: 1.8rem;
@@ -8,6 +6,34 @@
 }
 
 .description p{
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+.mentor-card{
+    position: relative;
+    scroll-snap-align: center;
+    width: 40vw;
+    height: 30vh;
+}
+
+.mentor-card img{
+    width: 90px;
+    height: 90px
+}
+.mentor-card p{
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    letter-spacing: 2px;
+}
+
+.course-container--img{
+    height: 30vh;
+
+}
+.course-container--text h2{
+    font-size: 2.4rem;
+}
+.course-container--text p{
     font-size: 1.8rem;
     line-height: 2.4rem;
 }

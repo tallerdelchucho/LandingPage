@@ -3,6 +3,8 @@
     --background: #003C5B;
     --text: #FFFFFF;
     --naranja: #DD833A;
+    --gris: #CCE1F4;
+  
 }
 *{
     box-sizing: border-box;
@@ -12,12 +14,14 @@
 }
 html{
     font-size: 62.5%;
-    
+    font-family: 'Volkhov', serif;  
 }
 header{
     position: fixed;
-    width: 100%;
+    width: 100vw;
+    height: auto;
     min-width: 320px;
+    min-height: 87px;
     max-height: 300px;
     overflow: hidden;
     z-index: 1;
@@ -71,20 +75,41 @@ header video{
 }
 .container--slider::-webkit-scrollbar{
     display: none;
-}
+} 
 .container--card{
     position: relative;
-    scroll-snap-align: center;
-    width: 30%;
-    height: auto;
+    width: 15vw;
+    height: 15vh;
     min-width: 114px;
-    max-width: 350px;
     min-height: 150px;
     margin: 11px auto 0;
     background-color: var(--text);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(17, 17, 16, 0.16);
 }
+.container--card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: var(--text);
+    background-color: transparent;
+}
+.overlay p{
+    background-color: transparent;
+}
+
 .description{
     width: 90%;
     margin: 0 auto;
@@ -93,6 +118,7 @@ header video{
     margin-top: 35px;
     color: var(--text);
     font-size: 1rem;
+    font-weight: 700;
     line-height: 1.7rem;
     text-align: justify;
 }
@@ -111,13 +137,14 @@ footer{
 }
 .container-footer ul{
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.7rem;
+    letter-spacing: 1px;
     list-style: none;
 }
 .container-footer li{
     color: var(--naranja);
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .container-footer a{
@@ -129,4 +156,107 @@ footer{
     padding-top: 2px;
     margin-bottom: 25px;
     background-image: linear-gradient(to right, white 33%,transparent 33%, transparent 66%, white 66%);
+}
+
+/*trainig*/
+.header-two{
+    display: flex;
+    width: auto;
+    padding: 10px;
+}
+.back--icon{
+    display: flex;
+    width: 10vw;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo{
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.back--icon a img{
+    width: 30px;
+    height: 30px;
+}
+
+/*section1*/
+
+.section-trainig{
+    width: 100vw;
+    text-align: center;
+}
+.section-trainig h1{
+    color: var(--gris);
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 3.2rem;
+}
+.mentor-container{
+    width: 90vw;
+    display: flex;
+    gap: 20px;
+    height: auto;
+    margin: 0 auto 35px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.mentor-container::-webkit-scrollbar{
+    display: none;
+} 
+
+.mentor-card{
+    position: relative;
+    scroll-snap-align: center;
+    width: 20vw;
+    height: 12vh;
+}
+
+.mentor-card img{
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.mentor-card p{
+    color: var(--text);
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 1.4rem;
+    letter-spacing: 1px;
+}
+
+/*section2*/
+.course-container{
+    width: 90vw;
+    height: auto;
+    margin: 0 auto 35px;
+}
+.course-container--img{
+    width: 90vw;
+    height: 20vh;
+    margin: 0 auto 11px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.course-container--text h2{
+    font-size: 2rem;
+    color: var(--text);
+    line-height: 2.4rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.course-container--text p{
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--text);
+    line-height: 1.3rem;
+    letter-spacing: 0.1rem;
+    text-align:justify;
 }
