@@ -255,6 +255,12 @@ footer{
     background-color: #FFFFFF;
     border-radius: 15px;
 }
+.course-container--text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .course-container--text h2{
     font-family: "AlegreyaSans";
