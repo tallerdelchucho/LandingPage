@@ -92,7 +92,7 @@ header video{
     height: 15vh;
     min-width: 114px;
     min-height: 150px;
-    margin: 11px auto 0;
+    margin: 11px auto 4px;
     background-color: var(--text);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(17, 17, 16, 0.16);

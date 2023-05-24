@@ -1,4 +1,20 @@
-
+.container--slider::-webkit-scrollbar{
+    display: block;
+    width: 4px;
+} 
+.container--slider::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+.container--slider::-webkit-scrollbar-thumb{
+    background-color: var(--gris);
+    width: 4px;
+    border-radius: 8px;
+}
+.container--card{
+    width: 30vw;
+    height: 30vh;
+    min-width: 200px;
+}
 .mentor-card img{
     width: 120px;
     height: 120px

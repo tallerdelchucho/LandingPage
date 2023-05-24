@@ -1,5 +1,6 @@
 .container--card{
     max-width: 120px;
+    
 }
 
 .container-footer ul{
@@ -13,7 +14,6 @@
 }
 .mentor-card{
     position: relative;
-    scroll-snap-align: center;
     width: 40vw;
     height: 30vh;
 }
