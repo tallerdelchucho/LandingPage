@@ -12,9 +12,18 @@
     padding: 0;
     background-color: var(--background);
 }
+@font-face {
+    font-family: "AlegreyaSans";
+    src: url("../assets/fonts/ALEGREYA/AlegreyaSans-Bold.ttf");
+}
+@font-face {
+    font-family: "Vollkorn";
+    src: url("../assets/fonts/VOLLKORN/Vollkorn-Medium.ttf");
+    
+}
 html{
     font-size: 62.5%;
-    font-family: 'Volkhov', serif;  
+    font-family: 'Vollkorn'
 }
 header{
     position: fixed;
@@ -52,6 +61,7 @@ header video{
     
 }
 .container--title{
+    font-family: "AlegreyaSans";
     width: 100%;
     min-width: 288px;
     height: auto;
@@ -190,6 +200,7 @@ footer{
     text-align: center;
 }
 .section-trainig h1{
+    font-family: "AlegreyaSans";
     color: var(--gris);
     margin-top: 25px;
     margin-bottom: 15px;
@@ -236,6 +247,7 @@ footer{
     height: auto;
     margin: 0 auto 35px;
 }
+
 .course-container--img{
     width: 90vw;
     height: 20vh;
@@ -245,6 +257,7 @@ footer{
 }
 
 .course-container--text h2{
+    font-family: "AlegreyaSans";
     font-size: 2rem;
     color: var(--text);
     line-height: 2.4rem;
@@ -259,4 +272,15 @@ footer{
     line-height: 1.3rem;
     letter-spacing: 0.1rem;
     text-align:justify;
+}
+.course-container--text ul{
+    margin-left: 30px;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    letter-spacing: 1px;
+    color: var(--text);
+}
+
+.course-container--text li{
+    margin-top: 5px;
 }
