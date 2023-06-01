@@ -252,8 +252,12 @@ footer{
     width: 90vw;
     height: 20vh;
     margin: 0 auto 11px;
-    background-color: #FFFFFF;
+}
+.course-container--img img{
+    width: 100%;
+    height: 100%;
     border-radius: 15px;
+    object-fit: cover;
 }
 .course-container--text{
     display: flex;
