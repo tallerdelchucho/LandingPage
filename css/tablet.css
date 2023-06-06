@@ -45,3 +45,20 @@
     font-size: 1.8rem;
     line-height: 2.4rem;
 }
+.container-detail{
+    width: 50%;
+}
+
+.detail p{
+    font-size: 1.5rem;
+    line-height: 2.4rem;  
+}
+.proyect--text{
+    width: 50%;
+}
+
+
+.proyect--text p{
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}

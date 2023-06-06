@@ -6,7 +6,7 @@
     background-color: transparent;
 }
 .container--slider::-webkit-scrollbar-thumb{
-    background-color: var(--gris);
+    background-color: rgba(128,128,128,0.3);
     width: 4px;
     border-radius: 8px;
 }
@@ -26,4 +26,16 @@
     height: 50vh;
     width: 60vw;
 
+}
+.ProyectVideo{
+    padding-bottom: 30%;
+}
+.backgroundVideo{
+    padding-bottom: 30%;
+}
+.container-detail{
+    width: 30%;
+}
+.proyect--text{
+    width: 30%;
 }
