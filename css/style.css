@@ -111,14 +111,23 @@ header video{
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: end;
     color: var(--text);
     background-color: transparent;
 }
 .overlay p{
     background-color: transparent;
+    font-size: 1.3rem;
+    text-align: left;
+    padding: 5px;
+
 }
+
+.overlay p:hover{
+    font-size: 1.8rem;  
+}
+
 
 .description{
     width: 90%;
