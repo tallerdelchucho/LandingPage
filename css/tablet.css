@@ -47,10 +47,15 @@
 }
 .container-detail{
     width: 50%;
+    height: 50px;
+}
+.container-detail p{
+    font-size: 1.3rem;
+    line-height: 2.4rem; 
 }
 
 .detail p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 2.4rem;  
 }
 .proyect--text{
@@ -61,4 +66,9 @@
 .proyect--text p{
     font-size: 1.5rem;
     line-height: 2.4rem;
+}
+
+.social-icons img{
+    width: 50px;
+    height: 50px;
 }

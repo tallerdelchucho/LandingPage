@@ -395,7 +395,12 @@ footer{
     border-radius: 6px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+}
+.container-detail p{
+    color: var(--text);
+    font-size: 1.1rem;
+    background-color: transparent;
 }
 
 .detail{
