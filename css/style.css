@@ -21,6 +21,7 @@
     src: url("../assets/fonts/VOLLKORN/Vollkorn-Medium.ttf");
     
 }
+
 html{
     font-size: 62.5%;
     font-family: 'Vollkorn'
@@ -87,6 +88,7 @@ header .tdc-logo{
     gap: 15px;
     height: auto;
     overflow-x: scroll;
+    overflow-y: hidden;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
 }
@@ -245,6 +247,7 @@ footer{
     height: auto;
     margin: 0 auto 35px;
     overflow-x: scroll;
+    overflow-y: hidden;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
 }
