@@ -13,18 +13,29 @@
     background-color: var(--background);
 }
 @font-face {
-    font-family: "AlegreyaSans";
-    src: url("../assets/fonts/ALEGREYA/AlegreyaSans-Bold.ttf");
+    font-family: 'AlegreyaSans-900';
+    src: url("../assets/fonts/ALEGREYA/AlegreyaSans-ExtraBold.ttf");
 }
 @font-face {
-    font-family: "Vollkorn";
-    src: url("../assets/fonts/VOLLKORN/Vollkorn-Medium.ttf");
-    
+    font-family: 'AlegreyaSans-800';
+    src: url("../assets/fonts/ALEGREYA/AlegreyaSans-Black.ttf");
+}
+@font-face {
+    font-family: 'SF Pro Display-800';
+    src: url("../assets/fonts/SF-PRO/SF-Pro-Display-Heavy.otf"); 
+}
+@font-face {
+    font-family: 'SF Pro Display-700';
+    src: url("../assets/fonts/SF-PRO/SF-Pro-Display-Bold.otf");   
+}
+@font-face {
+    font-family: 'SF Pro Display-500';
+    src: url("../assets/fonts/SF-PRO/SF-Pro-Display-Medium.otf");   
 }
 
 html{
     font-size: 62.5%;
-    font-family: 'Vollkorn'
+    font-family: 'SF Pro Display-700'
 }
 header{
     position: fixed;
@@ -69,7 +80,6 @@ header .tdc-logo{
     
 }
 .container--title{
-    font-family: "AlegreyaSans";
     width: 100%;
     min-width: 288px;
     height: auto;
@@ -77,9 +87,10 @@ header .tdc-logo{
     
 }
 .container--title h2{
+    font-family: 'AlegreyaSans-900';
     font-size: 2rem;
-    font-weight: bold;
-    line-height: 2.4rem;
+    line-height: 24px;
+    letter-spacing: 0.075em;
     color: var(--text);text-align: left;
 }
 
@@ -126,7 +137,10 @@ header .tdc-logo{
 }
 .overlay p{
     background-color: transparent;
+    font-family: 'AlegreyaSans-800';
     font-size: 1.3rem;
+    line-height: 101.5%;
+    letter-spacing: 0.075em;
     text-align: left;
     padding: 5px;
 
@@ -163,9 +177,10 @@ footer{
     margin: 35px auto 20px;    
 }
 .container-footer ul{
+    font-family: 'SF Pro Display-500';
     font-size: 1rem;
-    font-weight: 700;
-    line-height: 1.7rem;
+    font-style: normal;
+    line-height: 15px;
     letter-spacing: 1px;
     list-style: none;
 }
@@ -270,7 +285,8 @@ footer{
 }
 .mentor-card p{
     color: var(--text);
-    font-size: 1.3rem;
+    font-family: 'SF Pro Display-500';
+    font-size: 1.4rem;
     text-align: center;
     line-height: 1.4rem;
     letter-spacing: 1px;
@@ -302,7 +318,7 @@ footer{
 }
 
 .course-container--text h2{
-    font-family: "AlegreyaSans";
+    font-family: 'AlegreyaSans-900';
     font-size: 2rem;
     color: var(--text);
     line-height: 2.4rem;
@@ -338,11 +354,13 @@ footer{
     overflow: hidden;
 }
 .section-proyect h1{
-    font-family: "AlegreyaSans";
+    font-family: 'AlegreyaSans-900';
     color: var(--gris);
     margin-top: 25px;
     margin-bottom: 15px;
     font-size: 3.2rem;
+    line-height: 38px;
+    letter-spacing: 1px;
 }
 .ProyectVideo{
     width: 100%;
@@ -401,8 +419,11 @@ footer{
     justify-content: center;
 }
 .container-detail p{
+    font-family: 'SF Pro Display-800';
     color: var(--text);
-    font-size: 1.1rem;
+    font-size: 1rem;
+    line-height: 12px;
+    letter-spacing: 1px;
     background-color: transparent;
 }
 
@@ -430,14 +451,24 @@ footer{
     text-align: left;
 }
 .proyect--text h1{
-    font-family: 'AlegreyaSans';
+    font-family: 'AlegreyaSans-900';
     margin-top: 25px;
     padding-bottom: 5px;
     font-size: 2.4rem;
-    line-height: 2.4rem;
+    line-height: 2.9rem;
+    letter-spacing: 1px;
 }
 
-.proyect--text p{
+.proyect--text p:nth-child(2){
+    font-family: 'SF Pro Display-500';
     margin-bottom: 12px;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.proyect--text p:nth-child(3){
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    letter-spacing: 1px;
 }
