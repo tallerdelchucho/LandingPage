@@ -274,7 +274,7 @@ footer{
     position: relative;
     scroll-snap-align: center;
     width: 20vw;
-    height: 12vh;
+    height: auto;
 }
 
 .mentor-card img{
@@ -312,9 +312,9 @@ footer{
 }
 .course-container--text{
     display: flex;
+    width: 90vw;
+    margin: 0 auto;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .course-container--text h2{
@@ -324,7 +324,7 @@ footer{
     line-height: 2.4rem;
     letter-spacing: 0.1rem;
     text-align: center;
-    margin-bottom: 8px;
+    margin-bottom: 15px;
 }
 .course-container--text p{
     font-size: 1rem;
@@ -339,6 +339,7 @@ footer{
     font-size: 1rem;
     line-height: 1.2rem;
     letter-spacing: 1px;
+    text-align: left;
     color: var(--text);
 }
 

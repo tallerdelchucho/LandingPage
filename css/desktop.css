@@ -16,16 +16,18 @@
     min-width: 200px;
 }
 .mentor-card img{
-    width: 120px;
-    height: 120px
+    width: 100px;
+    height: 100px
 }
-.mentor-card p{
-    font-size: 2rem;
-}
+
+
 .course-container--img{
     height: 50vh;
     width: 60vw;
 
+}
+.course-container--text{
+    width: 60vw;
 }
 .ProyectVideo{
     padding-bottom: 30%;
