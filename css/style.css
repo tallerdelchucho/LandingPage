@@ -437,14 +437,22 @@ footer{
     align-items: center;
     justify-content: center;
 }
+.detail:nth-child(1){
+    width: 25%;
+}
+.detail:nth-child(2){
+    width: 25%;
+}
+.detail:nth-child(3){
+    width: 50%;
+    border: none;
+}
 .detail p{
     color: var(--text);
     font-size: 1.1rem;
     background-color: transparent;
 }
-.detail:nth-child(3){
-    border: none;
-}
+
 .proyect--text{
     width: 70%;
     margin: 0 auto;
